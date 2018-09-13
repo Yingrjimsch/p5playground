@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Birdy-Extension",
+  "version": "0.1",
+  "web_accessible_resources": [
+	"1/*.png",
+	"2/*.png",
+	"3/*.png",
+	"4/*.png",
+	"5/*.png",
+	"6/*.png",
+	"7/*.png",
+	"8/*.png",
+	"9/*.png"
+  ],
+  "content_scripts": [{
+	"matches": [
+		"<all_urls>"
+	],
+	"js": ["p5.js", "p5.play.js", "p5.dom.js", "sprite.js", "sketch.js"]
+  }]
+}
